@@ -37,7 +37,10 @@ Follow the instructions on [nodejs.org](https://nodejs.org/) for your specific L
 3. You should see a version number (like v18.0.0)
 
 ---
- 4
+# Choose how you want to download this
+
+If you want to download it via zip file, that's perfectly fine. If you want to do everything through the command line, also fine. It's up to your preference and comfort in using the command line. You may need to make a github account to run through the command line. 
+
 
 ### Step 2: Download This Project via zip
 
@@ -47,7 +50,7 @@ Follow the instructions on [nodejs.org](https://nodejs.org/) for your specific L
 4. Right-click and select "Extract All" (Windows) or double-click (Mac/Linux)
 5. Remember where you extracted it - you'll need this location
 
-### Step 2.5: Download This Project via the command line
+### Step 2 (alternate): Download This Project via the command line
 
 1. Click the green "Code" button at the top of this page
 2. Copy the link from the HTTPS tab
