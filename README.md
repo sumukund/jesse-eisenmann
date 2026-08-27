@@ -114,13 +114,16 @@ Now that everything is installed, let's see the website!
 
 1. In your terminal, type:
    ```
-\. ''$HOME/.nvm/nvm.sh''
-nvm use --lts
+   \. '$HOME/.nvm/nvm.sh'
+   nvm use --lts
    npm run dev
+   
    ```
+
+ 
 2. Press Enter
 3. You should see some text mentioning a local address (usually something like `http://localhost:5173`)
-4. Hold down `Ctrl` (Windows/Linux) or `Cmd` (Mac) and click that link, OR
+4. Hold down Control (Windows/Linux) or Command (Mac) and click that link, OR
 5. Copy [the link](http://localhost:5173) and paste it into your web browser
 
 **Congratulations!** You should now see the website running locally on your computer!
@@ -129,7 +132,7 @@ nvm use --lts
 
 ### Step 7: Stopping the website
 
-To stop the website, go back to your terminal and press `Ctrl+C`.
+To stop the website, go back to your terminal and press Ctrl-C.
 
 ---
 
