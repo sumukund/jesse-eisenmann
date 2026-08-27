@@ -2,16 +2,14 @@
 
 Profile website for Jesse Eisenmann
 
-## Getting Started (For Beginners)
+## Getting Started 
 
-This guide will walk you through everything you need to do to run this website on your computer, even if you've never done this before!
+This guide will walk you through everything you need to do to run this website.
 
 ### What You'll Need
 
 Before we start, make sure you have:
-- A computer (Mac, Windows, or Linux)
-- An internet connection
-- A text editor (we recommend [Visual Studio Code](https://code.visualstudio.com/) - it's free!)
+- A code editor ([Visual Studio Code](https://code.visualstudio.com/))
 
 ### Step 1: Install Node.js and npm
 
@@ -34,13 +32,14 @@ Before we start, make sure you have:
 Follow the instructions on [nodejs.org](https://nodejs.org/) for your specific Linux distribution.
 
 **To verify it installed correctly:**
-1. Open your terminal or command prompt
-2. Type: `node --version`
+1. Open your terminal or command prompt ( use the searchbar to open terminal)
+2. Type into the command line: `node --version`
 3. You should see a version number (like v18.0.0)
 
 ---
+ 4
 
-### Step 2: Download This Project
+### Step 2: Download This Project via zip
 
 1. Click the green "Code" button at the top of this page
 2. Click "Download ZIP"
@@ -48,6 +47,19 @@ Follow the instructions on [nodejs.org](https://nodejs.org/) for your specific L
 4. Right-click and select "Extract All" (Windows) or double-click (Mac/Linux)
 5. Remember where you extracted it - you'll need this location
 
+### Step 2.5: Download This Project via the command line
+
+1. Click the green "Code" button at the top of this page
+2. Copy the link from the HTTPS tab
+3. Go to your command line and open up the folder you want to download the repository to:
+  ``` cd /Users/{yourname}/Downloads/{yourfolder}```
+
+5. type in
+   ```pwd```
+If the directory name is what you expect it to be, then you are in the right location.
+6. Now you will 'clone' the repository to this folder:
+  ```git clone https://github.com/sumukund/jesse-eisenmann.git```
+7. You might have to log in to github - if you do, let me know.
 ---
 
 ### Step 3: Open a Terminal and Navigate to the Project
@@ -102,25 +114,20 @@ Now that everything is installed, let's see the website!
 
 1. In your terminal, type:
    ```
+\. "$HOME/.nvm/nvm.sh"
+nvm use --lts
    npm run dev
    ```
 2. Press Enter
 3. You should see some text mentioning a local address (usually something like `http://localhost:5173`)
 4. Hold down `Ctrl` (Windows/Linux) or `Cmd` (Mac) and click that link, OR
-5. Copy the link and paste it into your web browser
+5. Copy [the link](http://localhost:5173) and paste it into your web browser
 
 **Congratulations!** You should now see the website running locally on your computer!
 
 ---
 
-### Step 7: Making Changes (Optional)
-
-If you want to edit the website:
-
-1. Open the `my-svelte-app` folder in your text editor (like Visual Studio Code)
-2. Edit the files you want to change
-3. Save your changes
-4. The website should automatically refresh in your browser!
+### Step 7: Stopping the website
 
 To stop the website, go back to your terminal and press `Ctrl+C`.
 
@@ -136,14 +143,5 @@ If something isn't working:
 4. **Restart your terminal** - close it and open a new one
 5. **Restart your computer** - this fixes many issues!
 
-If you're still stuck, you can check the [Node.js documentation](https://nodejs.org/docs/) or reach out for help.
+If you're still stuck, email me!
 
----
-
-## What is Svelte?
-
-**Svelte** is the framework (the underlying technology) used to build this website. You don't need to know anything about it to run the site - npm handles all of that for you! If you're curious, you can learn more at [svelte.dev](https://svelte.dev/).
-
----
-
-Happy developing! 🎉
