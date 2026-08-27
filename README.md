@@ -114,7 +114,7 @@ Now that everything is installed, let's see the website!
 
 1. In your terminal, type:
    ```
-\. "$HOME/.nvm/nvm.sh"
+\. ''$HOME/.nvm/nvm.sh''
 nvm use --lts
    npm run dev
    ```
